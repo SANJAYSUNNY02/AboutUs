@@ -1,0 +1,136 @@
+
+@media (min-width: 576px) {
+    .logo {
+
+        width: 250px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    header {
+
+        width: 100%;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to top, #1b1641be, #1b1641be), url(images/AboutUs-small.jpg) no-repeat center;
+
+    }
+
+    .our-features {
+
+        width: 100%;
+
+        color: white;
+        background: linear-gradient(to top, #0f0a36c0, #0f0a36b5), url(images/aboutUs1-small.jpg) no-repeat center;
+
+    }
+
+}
+
+@media (max-width: 768px) {
+    header {
+
+        width: 100%;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to top, #1b1641be, #1b1641be), url(images/AboutUs-medium.jpg) no-repeat center;
+
+    }
+
+    .our-features {
+
+        width: 100%;
+
+        color: white;
+        background: linear-gradient(to top, #0f0a36c0, #0f0a36b5), url(images/aboutUs1-medium.jpg) no-repeat top center;
+
+    }
+}
+
+body {
+    color: #231964;
+}
+
+.text-align {
+    text-align: justify;
+}
+
+.logo {
+    width: 150px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+header {
+    width: 100%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #1b1641be, #1b1641be), url(images/AboutUs.jpeg) no-repeat center;
+}
+
+section {
+    margin: 50px 0px;
+}
+
+.row {
+    margin: 20px 0px;
+}
+
+.adv-img {
+    margin: 50px 0px;
+    width: 100%;
+    /* min-height:30vh; */
+    height: 60vh;
+
+}
+
+.loan-progress-bar {
+    margin-top: 2vh;
+}
+
+.our-features {
+    width: 100%;
+
+    color: white;
+    background: linear-gradient(to top, #0f0a36c0, #0f0a36b5), url(images/aboutUs1.jpeg) no-repeat top center;
+
+}
+
+
+
+.icons {
+    padding: 2px 2px;
+    border-radius: 18px;
+    background-color: gold;
+}
+
+.footer {
+    color: white;
+    background-color: #1b1641;
+}
+
+.process-icons {
+    margin-bottom: 5vh;
+    width: 3rem;
+    height: 10vh;
+}
+
+.team-icons {
+    padding: 2px 2px;
+    background-color: gold;
+}
+
+.team-section {
+    background-color: bisque;
+
+}
